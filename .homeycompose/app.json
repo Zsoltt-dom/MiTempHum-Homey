@@ -1,0 +1,43 @@
+{
+  "id": "hu.corenet.mitemp",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Miija Temp BLE"
+  },
+  "description": {
+    "en": "App for Xiaomi Mi Temperature and Humidity Monitor"
+  },
+  "category": [
+    "climate"
+  ],
+  "permissions": ["homey:wireless:ble"],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "energy": {
+    "batteries": [
+      "CR2032"
+    ]
+  },
+  "author": {
+    "name": "Zsolt Reinhardt",
+    "email": "zsolt@reinhardts.hu"
+  },
+  "brandColor": "#5C9DF3",
+  "tags": {
+    "en": [
+      "Xiaomi",
+      "Mijia",
+      "ble",
+      "temperature",
+      "humidity"
+    ]
+  }
+}
