@@ -12,4 +12,4 @@ For that please visit https://github.com/pvvx/ATC_MiThermometer and you can use 
 After flashing, don't forget to set the ATC441 advertising format.
 The app will filter the dicovered devices by their dataformat (0x181A) and will list the devices by their name.
 
-I'm not a developer, created this app only because I wanted to use my sensors with Homey.
+I'm not a developer, created this app only because I wanted to use my sensors with Homey. Thanks for "Horakmartin" for the contribution!
