@@ -1,6 +1,6 @@
 {
   "name": {
-    "en": "Xiaomi Mi Temperature and Humidity Monitor (BLE)"
+    "en": "Thermometer and Hygrometer (BLE)"
   },
   "class": "sensor",
   "capabilities": [

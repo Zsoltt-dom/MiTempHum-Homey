@@ -55,13 +55,13 @@ class MyDevice extends Device {
     let deviceData = this.getData();
     let settings = this.getSettings();
     let mac = this.getData();
-
       foundDevices.forEach(device => {
+        //this.log("Device Mac: ",device.address);
         if(device.address==mac["id"]){
           console.log("Match!", mac, device.address);
           const sdata = device.serviceData;
           sdata.forEach(uuid => {
-            if(uuid.uuid=="181a"){
+            if(uuid.uuid=="0000181a-0000-1000-8000-00805f9b34fb"){
               var datas = uuid["data"];
               const dattta = Buffer.from(uuid["data"],'hex');
               console.log(device.localName)

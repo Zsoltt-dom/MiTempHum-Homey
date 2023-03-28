@@ -1,16 +1,17 @@
 {
   "id": "hu.corenet.mitemp",
-  "version": "1.0.0",
+  "source": "https://github.com/Zsoltt-dom/MiTempHum-Homey",
+  "version": "1.1.0",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
     "local"
   ],
   "name": {
-    "en": "Miija Temp BLE"
+    "en": "Xiaomi Miija"
   },
   "description": {
-    "en": "App for Xiaomi Mi Temperature and Humidity Monitor"
+    "en": "Always up-to-date on your indoor temperature and humidity"
   },
   "category": [
     "climate"
@@ -28,7 +29,14 @@
   },
   "author": {
     "name": "Zsolt Reinhardt",
-    "email": "zsolt@reinhardts.hu"
+    "email": "zsolt@reinhardt.es"
+  },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Zsolt Reinhardt"
+      }
+    ]
   },
   "brandColor": "#5C9DF3",
   "tags": {
