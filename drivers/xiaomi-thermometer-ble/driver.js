@@ -32,7 +32,7 @@ class MyDriver extends Driver {
       const sdata = device.serviceData;
       if(sdata !== null){
       sdata.forEach(uuid => {
-        if(uuid.uuid=="0000181a-0000-1000-8000-00805f9b34fb"){
+        if(uuid.uuid=="0000181a-0000-1000-8000-00805f9b34fb" || uuid.uuid=="181a"){
           console.log(device.localName);
           let new_device =
             {
