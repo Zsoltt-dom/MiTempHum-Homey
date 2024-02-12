@@ -21,7 +21,7 @@
   },
   "zigbee": {
     "manufacturerName": "Xiaomi",
-    "productId": [ "LYWSD03MMC" ],
+    "productId": [ "LYWSD03MMC", "LYWSD03MMC-z" ],
     "endpoints": {
       "1": {
         "clusters": [0, 1, 1026, 1029],
